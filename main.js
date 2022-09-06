@@ -2,10 +2,10 @@
 
 let entry1, entry2, num1, num2, resultado;
 
-dato1 = prompt("Inserte un primer número", "0");
+entry1 = prompt("Inserte un primer número", "0");
 num1 = parseInt(entry1);
 
-dato2 = window.prompt("Inserte un segundo número", "0");
+entry2 = window.prompt("Inserte un segundo número", "0");
 num2 = parseInt(entry2);
 
 if (num1 > num2) {
