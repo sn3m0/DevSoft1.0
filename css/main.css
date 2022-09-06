@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Slider de imagenes */
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+.mapa {
+    background: url(../img/mapa.png);
+    width: 100%;
+    height: 500px;
+}
+
+#local {
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+.casds {
+    color: #4263ae;
+}
+
+#numeros-local div {
+    padding: 0 20px 0 0;
+    height: 48px;
+}
+
+#numeros-local div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+}
+
+#numeros-local div:not(:first-child) {
+    padding-left: 20px;
+}
+
+#numeros-local p {
+    margin: 0;
+}
+
+
+/* MEDIA QUERIES WIDESCREEN */
+
+@media (max-width: 1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+
+/* ======================== */
+
+
+/* ======================== */
+
+
+/* MEDIA QUERIES SM */
+
+@media (max-width: 768px) {
+    #intro,
+    #equipo {
+        width: 90% !important;
+        margin: auto;
+    }
+    #img-equipo {
+        max-height: 20rem !important;
+        width: 90%;
+    }
+    .wrapper-local {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width: 100%;
+        height: auto;
+    }
+    #bg-contactos {
+        top: -120px;
+    }
+}
+
+.error {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+
+/* ======================== */
+
+
+/* ======================== */
+
+
+/* MEDIA QUERIES EXTRA-SM */
+
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+.paddingx60 {
+    padding: 60px 0px 60px 0px;
+}
+
+.gray-bg {
+    background: #F1F1F1 !important;
+}
+
+.about-title h1 {
+    color: #535353;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.about-title span {
+    color: #1B2A4E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.about-title h3 {
+    color: #535353;
+    font-size: 23px;
+    margin-bottom: 24px;
+}
+
+.about-title p {
+    color: #7a7a7a;
+    line-height: 1.8;
+    margin: 0 0 15px;
+}
+
+.about-paddingB {
+    padding-bottom: 12px;
+}
+
+.about-img {
+    padding-left: 57px;
+}
+
+.posfix {
+    background-size: cover;
+}
+
+
+/*=============================================
+            Propiedades generales 
+ ============================================= */
+
+.text-primary,
+.bg-primary {
+    color: #2b435c !important;
+}
+
+.btn-primary {
+    background-color: #2b435c !important !important;
+}
+
+.btn-primary:hover {
+    background-color: #6683a2 !important !important;
+}
+
+.font-weight-bold {
+    font-weight: 800;
+}
+
+.icon-primary-color {
+    color: #2b435c !important;
+}
+
+.footer-bgAlt {
+    background-color: #2b435c !important;
+    color: white !important;
+}
+
+
+/* Contactos BG */
+
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto {
+    background-color: #1B2A4E;
+    min-height: 500px;
+    position: relative;
+}
+
+.border-black {
+    color: black;
+}
+
+
+/*# sourceMappingURL=main.css.map */

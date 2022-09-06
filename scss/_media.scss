@@ -1,0 +1,65 @@
+/* MEDIA QUERIES WIDESCREEN */
+
+@media(max-width:1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+
+/* ======================== */
+
+
+/* ======================== */
+
+
+/* MEDIA QUERIES SM */
+
+@media (max-width:768px) {
+    #intro,
+    #equipo {
+        width: 90% !important;
+        margin: auto;
+    }
+    #img-equipo {
+        max-height: 20rem !important;
+        width: 90%;
+    }
+    .wrapper-local {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width: 100%;
+        height: auto;
+    }
+    #bg-contactos {
+        top: -120px;
+    }
+}
+
+
+/* ======================== */
+
+
+/* ======================== */
+
+
+/* MEDIA QUERIES EXTRA-SM */
+
+@media(max-width:576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}

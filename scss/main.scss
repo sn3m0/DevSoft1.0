@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import 'font';
+@import 'variables';
+@import 'menu';
+@import 'slider';
+@import 'gps';
+@import 'features';
+@import 'media';
+@import 'utilities';
+@mixin seccionContacto {
+    background-color: #1B2A4E;
+    min-height: 500px;
+    position: relative;
+}
+
+
+/*=============================================
+            Propiedades generales 
+ ============================================= */
+
+.text-primary,
+.bg-primary {
+    color: $primarycolor;
+}
+
+.btn-primary {
+    background-color: $primarycolor !important;
+}
+
+.btn-primary:hover {
+    background-color: $background-color !important;
+}
+
+.font-weight-bold {
+    font-weight: $fontweightbold;
+}
+
+.icon-primary-color {
+    color: $primarycolor;
+}
+
+.footer-bgAlt {
+    background-color: $primarycolor;
+    color: $white;
+}
+
+
+/* Contactos BG */
+
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto {
+    @include seccionContacto();
+}
+
+.border-black {
+    color: black;
+}

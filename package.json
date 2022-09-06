@@ -1,0 +1,23 @@
+{
+    "name": "devsoft-beta-1.0-sass",
+    "version": "1.0.0",
+    "description": "Trasladamos tu empresa al Metaverso",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sn3m0/devsoftbeta1.git"
+    },
+    "keywords": [],
+    "author": "Alejandro Garcia",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sn3m0/devsoftbeta1/issues"
+    },
+    "homepage": "https://github.com/sn3m0/devsoftbeta1#readme",
+    "dependencies": {
+        "bootstrap": "^5.1.3"
+    }
+}

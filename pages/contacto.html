@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" type="icon/png" href="/img/logo.png">
+    <title>Contacto | DevSoft</title>
+
+    <style>
+        .bg {
+            background-image: url(../img/contacto.jpg);
+            background-position: center center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-light p-3" id="menu">
+        <div class="container-fluid"><a class="navbar-brand" href="../index.html"><span class="text-primary fs-5 fw-bold">Dev.Soft</span></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/equipo.html">Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/registro.html">Registro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/descarga.html">Descarga</a></li>
+                </ul>
+                <form class="d-flex" role="search"><input class="form-control me-2" type="email" placeholder="Correo electrónico" aria-label="email"><button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button></form>
+            </div>
+        </div>
+    </nav>
+    <!-- Container del form -->
+    <div class="container w-75 bg-primary mt-5 rounded shadow">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded"></div>
+            <div class="col bg-white p-4 rounded-end">
+                <div class="text-end"><img src="../img/logo.png" width="48" alt="logo"></div>
+                <h2 class="fw-bold text-center py-5">Contacto</h2>
+                <!-- LOGIN -->
+                <form action="#">
+                    <div class="mb-4"><label for="text" class="form-label">Nombre</label><input type="text" class="form-control" name="name"></div>
+                    <div class="mb-4"><label for="apellido" class="form-label">Apellido</label><input type="text" class="form-control" name="surename"></div>
+                    <div class="mb-4"><textarea class="form-control" name="message" id="message" rows="4" placeholder="Su mensaje"></textarea></div>
+                    <div class="d-grid"><button type="submit" class="btn btn-primary">Enviar</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3  pt-3">Copyright 2022 &copy; FlyBox S.R.L.</p>
+    </footer>
+    <!--JS de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+</body>
